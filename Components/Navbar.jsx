@@ -30,7 +30,8 @@ export default function Navbar({ cart, setData }) {
                     <div className="header">
                         <div className="nav_logo">
                             <Link to={'/'}>
-                                <img src="../Images/nav-logo.svg" alt="" />
+                                {/* <img src="../Images/nav-logo.svg" alt="" /> */}
+                                <h1>FreshMenu</h1>
                             </Link>
 
                         </div>

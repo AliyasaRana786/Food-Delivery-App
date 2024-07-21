@@ -7,7 +7,8 @@ export default function Footer() {
                 <div className="row mt-4">
                     <div className="col-lg-3 col-md-6 col-12 mb-3">
                     <div className="footerlogo mb-4">
-                        <img src="../Images/nav-logo.svg" alt="" />
+                        {/* <img src="../Images/nav-logo.svg" alt="" /> */}
+                        <h1>FreshMenu</h1>
                     </div>
                     <p className='footer_para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, numquam? Labore vero, eius vel maxime quae earum eaque sapiente adipisci.</p>
                        

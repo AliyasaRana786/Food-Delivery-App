@@ -23,6 +23,16 @@ li {
     height: 40px;
 }
 
+.nav_logo {
+    text-decoration: none;
+}
+
+.nav_logo h1 {
+    font-weight: 600;
+    color: #FF6004;
+    font-size: 40px;
+}
+
 .header {
 
     display: grid;
