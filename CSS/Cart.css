@@ -1,0 +1,131 @@
+.product_cart {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 15px;
+}
+
+.cartpage {
+    margin-top: 100px;
+}
+
+.product_cart {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cart_img img {
+    height: 180px;
+    width: 260px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+ 
+
+.cart_btn button {
+    height: 45px;
+    width: 120px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    background-color: #d82a29;
+    color: #fff;
+}
+
+.fa-xmark {
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card_foodname {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cart_des {
+    font-size: 18px;
+
+}
+
+ .contniue_btn{
+    margin-top: 140px;
+     
+ }
+
+.Continuebtn{
+    background-color: #d82a29;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+ 
+  
+}
+.Continuebtn:hover{
+    color: #fff;
+}
+
+@media only screen and (width: 768px) {
+    .cart_img img {
+        width: 270px;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .delivery_date,
+    .delivery-time {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cartpage {
+        margin-top: 150px;
+    }
+
+    .contniue_btn {
+        margin-top: 200px;
+    }
+
+    .cart_img img {
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+    }
+
+    .product_cart {
+
+        padding: 0;
+    }
+
+    .rating {
+        font-size: 14px;
+        padding: 1px 3px;
+    }
+
+    .fa-star {
+        font-size: 13px;
+    }
+
+    .cart_des {
+        display: none;
+    }
+
+    .product_cart {
+        padding: 8px 7px 0 0;
+    }
+
+    .delivery_date,
+    .delivery-time {
+        font-size: 14px;
+    }
+
+    .card_foodname {
+        font-size: 18px;
+    }
+}

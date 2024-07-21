@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy_Bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_logo img {
+    height: 40px;
+}
+
+.header {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+
+.nav_search_bar input {
+    width: 450px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding-left: 5px;
+    border: 1px solid #d82a29;
+
+}
+
+.nav_icon {
+    text-align: right;
+}
+
+.navbars {
+    background-color: #fff;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.find_food {
+    margin-top: 120px;
+}
+
+.category {
+    border: 1px solid #d82a29;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 5px 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+.category:active{
+    color: #d82a29;
+}
+
+.fa-cart-shopping {
+    font-size: 30px;
+    color: #000;
+}
+
+.find_food_heading h4 {
+    font-size: 28px;
+}
+@media only screen and (width: 768px){
+    .nav_search_bar input {
+        width:350px;
+        margin-left: 60px;
+    }
+}
+
+ 
+ 
+
+@media only screen and (max-width: 600px) {
+    .header {
+        grid-template-columns: auto auto;
+        height: auto;
+    }
+
+    .nav_search_bar {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        margin-top: 20px;
+    }
+
+    .find_food {
+        margin-top: 160px;
+    }
+
+    .nav_search_bar input {
+        width: 100%;
+    }
+
+    .find_food_heading h4 {
+        font-weight: 600;
+    }
+}

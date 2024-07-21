@@ -1,0 +1,69 @@
+.productdetails_img img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio:1/0.6;
+    height: 100%;
+}
+.productdetailspage{
+    margin-top: 100px;
+}
+.productdetails_name{
+    font-weight: 600;
+    font-size: 30px;
+}
+.productdetails_description{
+    font-weight: 500;
+    font-size: 22px;
+}
+.productdetails_rating{
+    font-weight: 600;
+}
+.productdetails_price{
+    font-weight: 600;
+}
+.productdetails_button{
+    padding: 10px 25px;
+    border: 0;
+    outline: 0;
+    background-color: #d82a29;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.productdetailspage_details{
+    margin-top: 20px;
+}
+ 
+ .delviry_date,.delivery_time,.discount{
+    font-weight: 600;
+ }
+ .food_recipe{
+    font-size: 18px;
+ }
+ .food_recipe span{
+    font-weight: 600;
+ }
+ .item_name{
+    font-size: 17px;
+ }
+
+ 
+ @media only screen and (width: 768px) {
+     .productdetails_img img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+     }
+     .productdetails_description{
+        display: none;
+     }
+ }
+
+@media only screen and (max-width: 600px) {
+    .productdetailspage_details{
+        margin-top: -10px;
+    }
+    .food_recipe{
+        display: none;
+     }
+}

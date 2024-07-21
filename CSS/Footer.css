@@ -1,0 +1,71 @@
+.footer_logo {
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+}
+
+.footer_page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #023049;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.footerlogo img {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer_select select {
+    outline: 0;
+    border-radius: 3px;
+}
+
+
+ul li {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: #d82a29;
+}
+
+.icons {
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+    border-radius: 50%;
+    
+}
+.tittle{
+    font-size: 19px;
+}
+.icons:hover {
+    color: #d82a29;
+}
+
+.app_store img {
+    height: 50px;
+}
+.footer_para{
+    text-align: justify;
+}
+ 
+@media only screen and (max-width: 600px) {
+    .footer_logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer_page{
+        padding: 10px;
+    }
+}
