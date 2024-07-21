@@ -12,12 +12,19 @@
     color: #fff;
     margin-top: 50px;
 }
-
-.footerlogo img {
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 5px;
+.footerlogo{
+    text-align: center;
 }
+
+ .footerlogo h1{
+background-color: #fff;
+color: #d82a29;
+font-weight: 600;
+padding: 5px;
+border-radius: 5px;
+width: 220px;
+ 
+ }
 
 .footer_select select {
     outline: 0;
@@ -68,4 +75,10 @@ ul li:hover {
     .footer_page{
         padding: 10px;
     }
+    .footerlogo h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    height: 50px;   
+         }
 }

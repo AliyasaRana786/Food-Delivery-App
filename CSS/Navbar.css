@@ -18,20 +18,17 @@ li {
     margin: 0;
     padding: 0;
 }
-
-.nav_logo img {
-    height: 40px;
-}
-
-.nav_logo {
+.nav_logo a{ 
     text-decoration: none;
 }
-
-.nav_logo h1 {
+.nav_logo h1{
+    color: #000;
     font-weight: 600;
-    color: #FF6004;
-    font-size: 40px;
+    font-size: 35px;
+    color: #d82a29;
 }
+
+ 
 
 .header {
 
